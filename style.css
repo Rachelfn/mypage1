@@ -1,13 +1,35 @@
+
+
 p{
 
     color:#cb4e80;
-    font-size: 500px;
+    font-size: 50px;
     font-weight: 600;
-    
+    font-family: myfont;
+    display: flex;
+    justify-content: center;
 }
 
 #loopy{
     width: 200px;
     opacity: 70%;
     border:10px solid rgb(238, 158, 201);
+    display: flex;
+    justify-content: center;
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+#img{
+    display: flex;
+    justify-content: center;
 }
