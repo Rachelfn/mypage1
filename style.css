@@ -1,4 +1,14 @@
-  
+body{
+    background-color: rgb(247, 191, 222);
+}
+
+
+
+.button{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}  
 
 p{
 
@@ -8,14 +18,14 @@ p{
     font-family: myfont;
     display: flex;
     justify-content: center;
+    
 }
 
 #loopy{
-    width: 200px;
-    opacity: 70%;
+    width: 400px;
+    opacity: 100%;
     border:10px solid rgb(238, 158, 201);
-    display: flex;
-    justify-content: center;
+    
 }
 
 
@@ -29,7 +39,4 @@ p{
     src: url(./fonts/Pacifico-Regular.ttf);
 }
 
-#img{
-    display: flex;
-    justify-content: center;
-}
+
