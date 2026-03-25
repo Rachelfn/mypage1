@@ -1,0 +1,13 @@
+p{
+
+    color:#cb4e80;
+    font: size 300px;;
+    font-weight: 600;
+    
+}
+
+#loopy{
+    width: 200px;
+    opacity: 70%;
+    border:10px solid rgb(238, 158, 201);
+}
