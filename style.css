@@ -29,9 +29,16 @@ p{
 }
 
 
-#container{
+#container {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* zentriert die beiden Buttons */
+    gap: 20px; /* Abstand zwischen den Buttons */
+    margin-top: 20px;
+}
+
+.button {
+    width: 250px;
+    cursor: pointer;
 }
 
 @font-face {
