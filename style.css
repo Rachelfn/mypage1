@@ -7,7 +7,7 @@ body{
 .button{
     width: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }  
 
 p{
@@ -38,5 +38,30 @@ p{
     font-family: myfont;
     src: url(./fonts/Pacifico-Regular.ttf);
 }
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+/* transparente Box */
+.card{
+    background: rgba(134, 199, 240, 0.535);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Bilder */
+.card img{
+    width: 350px;
+    border-radius: 15px;
+    border: 5px solid rgb(238, 158, 201);
+}
+
 
 
