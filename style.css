@@ -13,7 +13,7 @@ body{
 p{
 
     color:#cb4e80;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 600;
     font-family: myfont;
     display: flex;
@@ -22,7 +22,14 @@ p{
 }
 
 #loopy{
-    width: 400px;
+    width: 300px;
+    opacity: 100%;
+    border:10px solid rgb(238, 158, 201);
+    
+}
+
+#portrait{
+    width: 300px;
     opacity: 100%;
     border:10px solid rgb(238, 158, 201);
     
@@ -31,14 +38,23 @@ p{
 
 #container {
     display: flex;
-    justify-content: center; /* zentriert die beiden Buttons */
-    gap: 20px; /* Abstand zwischen den Buttons */
-    margin-top: 20px;
+    justify-content: center; 
+    align-items: center;  
+    gap: 20px; 
+    
+}
+
+#portrait-img {
+    width: 400px; /* gleiche Größe wie andere Bilder */
+    border-radius: 20px;
+    align-items: center;
+    border: 5px solid rgb(238, 158, 201);
 }
 
 .button {
-    width: 250px;
+    width: 300px;
     cursor: pointer;
+    height: auto;
 }
 
 @font-face {
@@ -51,12 +67,12 @@ p{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 /* transparente Box */
 .card{
-    background: rgba(134, 199, 240, 0.535);
+    background: rgba(197, 49, 133, 0.146);
     backdrop-filter: blur(20px);
     padding: 20px;
     border-radius: 20px;
@@ -65,9 +81,10 @@ p{
 
 /* Bilder */
 .card img{
-    width: 350px;
-    border-radius: 15px;
-    border: 5px solid rgb(238, 158, 201);
+    width:400px;
+    border-radius: 20px;
+    border: 20px solid rgb(238, 158, 201);
+    align-items: center;
 }
 
 
