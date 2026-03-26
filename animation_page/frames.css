@@ -1,8 +1,12 @@
 
 body{
     overflow: hidden;
+    background-color: black;
 }
-
+head{
+    font-family: myfont;
+    font-size: larger;
+}
 #frame_container{
 
 
