@@ -3,14 +3,12 @@ body{
     overflow: hidden;
     background-color: black;
 }
-head{
-    font-family: myfont;
-    font-size: larger;
-}
+
+
 #frame_container{
 
 
-    width:100vw;
+    width:150vw;
     display: flex;
     justify-content: center;
     overflow: hidden;

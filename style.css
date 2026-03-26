@@ -4,12 +4,6 @@ body{
 
 
 
-.button{
-    width: 250px;
-    display: flex;
-    justify-content: left;
-}  
-
 p{
 
     color:#cb4e80;
@@ -70,7 +64,6 @@ p{
     margin-top: 100px;
 }
 
-/* transparente Box */
 .card{
     background: rgba(197, 49, 133, 0.146);
     backdrop-filter: blur(20px);
@@ -79,7 +72,7 @@ p{
     text-align: center;
 }
 
-/* Bilder */
+
 .card img{
     width:400px;
     border-radius: 20px;
@@ -87,5 +80,9 @@ p{
     align-items: center;
 }
 
+
+#link{
+    font-size: medium;
+}
 
 
